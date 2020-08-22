@@ -1,4 +1,4 @@
 <input #cardNumber [(ngModel)]="cardnum" [textMask]="mask" type="text" pattern="[0-9]{4}\s[0-9]{4}\s[0-9]{4}\s[0-9]{4}" maxlength="90" (keyup)="updateCard()">
 <i class="card ccs ccs-{{type?.card?.type}}"></i>
-{{cardnumber|json}}
+{{cardnumber|json}} 
 {{type|json}}
